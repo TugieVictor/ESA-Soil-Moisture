@@ -1,0 +1,231 @@
+[1] -179.875 -179.625 -179.375 -179.125 -178.875 -178.625
+[1] -179.875 -179.625 -179.375 -179.125 -178.875 -178.625
+[1] 1440  720
+$hasatt
+[1] TRUE
+
+$value
+[1] -9999
+
+class      : RasterLayer 
+dimensions : 720, 1440, 1036800  (nrow, ncol, ncell)
+resolution : 0.2498264, 0.2496528  (x, y)
+extent     : -179.875, 179.875, -89.875, 89.875  (xmin, xmax, ymin, ymax)
+crs        : +proj=longlat +datum=WGS84 +no_defs 
+source     : memory
+names      : layer 
+values     : 0.02, 0.46492  (min, max)
+
+Formal class 'RasterLayer' [package "raster"] with 12 slots
+  ..@ file    :Formal class '.RasterFile' [package "raster"] with 13 slots
+  .. .. ..@ name        : chr ""
+  .. .. ..@ datanotation: chr "FLT4S"
+  .. .. ..@ byteorder   : chr "little"
+  .. .. ..@ nodatavalue : num -Inf
+  .. .. ..@ NAchanged   : logi FALSE
+  .. .. ..@ nbands      : int 1
+  .. .. ..@ bandorder   : chr "BIL"
+  .. .. ..@ offset      : int 0
+  .. .. ..@ toptobottom : logi TRUE
+  .. .. ..@ blockrows   : int 0
+  .. .. ..@ blockcols   : int 0
+  .. .. ..@ driver      : chr ""
+  .. .. ..@ open        : logi FALSE
+  ..@ data    :Formal class '.SingleLayerData' [package "raster"] with 13 slots
+  .. .. ..@ values    : num [1:1036800] NA NA NA NA NA NA NA NA NA NA ...
+  .. .. ..@ offset    : num 0
+  .. .. ..@ gain      : num 1
+  .. .. ..@ inmemory  : logi TRUE
+  .. .. ..@ fromdisk  : logi FALSE
+  .. .. ..@ isfactor  : logi FALSE
+  .. .. ..@ attributes: list()
+  .. .. ..@ haveminmax: logi TRUE
+  .. .. ..@ min       : num 0.02
+  .. .. ..@ max       : num 0.465
+  .. .. ..@ band      : int 1
+  .. .. ..@ unit      : chr ""
+  .. .. ..@ names     : chr "layer"
+  ..@ legend  :Formal class '.RasterLegend' [package "raster"] with 5 slots
+  .. .. ..@ type      : chr(0) 
+  .. .. ..@ values    : logi(0) 
+  .. .. ..@ color     : logi(0) 
+  .. .. ..@ names     : logi(0) 
+  .. .. ..@ colortable: logi(0) 
+  ..@ title   : chr(0) 
+  ..@ extent  :Formal class 'Extent' [package "raster"] with 4 slots
+  .. .. ..@ xmin: num -180
+  .. .. ..@ xmax: num 180
+  .. .. ..@ ymin: num -89.9
+  .. .. ..@ ymax: num 89.9
+  ..@ rotated : logi FALSE
+  ..@ rotation:Formal class '.Rotation' [package "raster"] with 2 slots
+  .. .. ..@ geotrans: num(0) 
+  .. .. ..@ transfun:function ()  
+  ..@ ncols   : int 1440
+  ..@ nrows   : int 720
+  ..@ crs     :Formal class 'CRS' [package "sp"] with 1 slot
+  .. .. ..@ projargs: chr "+proj=longlat +datum=WGS84 +no_defs"
+  ..@ history : list()
+  ..@ z       : list()
+Formal class 'RasterLayer' [package "raster"] with 12 slots
+  ..@ file    :Formal class '.RasterFile' [package "raster"] with 13 slots
+  .. .. ..@ name        : chr ""
+  .. .. ..@ datanotation: chr "FLT4S"
+  .. .. ..@ byteorder   : chr "little"
+  .. .. ..@ nodatavalue : num -Inf
+  .. .. ..@ NAchanged   : logi FALSE
+  .. .. ..@ nbands      : int 1
+  .. .. ..@ bandorder   : chr "BIL"
+  .. .. ..@ offset      : int 0
+  .. .. ..@ toptobottom : logi TRUE
+  .. .. ..@ blockrows   : int 0
+  .. .. ..@ blockcols   : int 0
+  .. .. ..@ driver      : chr ""
+  .. .. ..@ open        : logi FALSE
+  ..@ data    :Formal class '.SingleLayerData' [package "raster"] with 13 slots
+  .. .. ..@ values    : num [1:1036800] NA NA NA NA NA NA NA NA NA NA ...
+  .. .. ..@ offset    : num 0
+  .. .. ..@ gain      : num 1
+  .. .. ..@ inmemory  : logi TRUE
+  .. .. ..@ fromdisk  : logi FALSE
+  .. .. ..@ isfactor  : logi FALSE
+  .. .. ..@ attributes: list()
+  .. .. ..@ haveminmax: logi TRUE
+  .. .. ..@ min       : num 0.02
+  .. .. ..@ max       : num 0.465
+  .. .. ..@ band      : int 1
+  .. .. ..@ unit      : chr ""
+  .. .. ..@ names     : chr "layer"
+  ..@ legend  :Formal class '.RasterLegend' [package "raster"] with 5 slots
+  .. .. ..@ type      : chr(0) 
+  .. .. ..@ values    : logi(0) 
+  .. .. ..@ color     : logi(0) 
+  .. .. ..@ names     : logi(0) 
+  .. .. ..@ colortable: logi(0) 
+  ..@ title   : chr(0) 
+  ..@ extent  :Formal class 'Extent' [package "raster"] with 4 slots
+  .. .. ..@ xmin: num -180
+  .. .. ..@ xmax: num 180
+  .. .. ..@ ymin: num -89.9
+  .. .. ..@ ymax: num 89.9
+  ..@ rotated : logi FALSE
+  ..@ rotation:Formal class '.Rotation' [package "raster"] with 2 slots
+  .. .. ..@ geotrans: num(0) 
+  .. .. ..@ transfun:function ()  
+  ..@ ncols   : int 1440
+  ..@ nrows   : int 720
+  ..@ crs     :Formal class 'CRS' [package "sp"] with 1 slot
+  .. .. ..@ projargs: chr "+proj=longlat +datum=WGS84 +no_defs"
+  ..@ history : list()
+  ..@ z       : list()
+Formal class 'RasterLayer' [package "raster"] with 12 slots
+  ..@ file    :Formal class '.RasterFile' [package "raster"] with 13 slots
+  .. .. ..@ name        : chr ""
+  .. .. ..@ datanotation: chr "FLT4S"
+  .. .. ..@ byteorder   : chr "little"
+  .. .. ..@ nodatavalue : num -Inf
+  .. .. ..@ NAchanged   : logi FALSE
+  .. .. ..@ nbands      : int 1
+  .. .. ..@ bandorder   : chr "BIL"
+  .. .. ..@ offset      : int 0
+  .. .. ..@ toptobottom : logi TRUE
+  .. .. ..@ blockrows   : int 0
+  .. .. ..@ blockcols   : int 0
+  .. .. ..@ driver      : chr ""
+  .. .. ..@ open        : logi FALSE
+  ..@ data    :Formal class '.SingleLayerData' [package "raster"] with 13 slots
+  .. .. ..@ values    : num [1:1036800] NA NA NA NA NA NA NA NA NA NA ...
+  .. .. ..@ offset    : num 0
+  .. .. ..@ gain      : num 1
+  .. .. ..@ inmemory  : logi TRUE
+  .. .. ..@ fromdisk  : logi FALSE
+  .. .. ..@ isfactor  : logi FALSE
+  .. .. ..@ attributes: list()
+  .. .. ..@ haveminmax: logi TRUE
+  .. .. ..@ min       : num 0.02
+  .. .. ..@ max       : num 0.465
+  .. .. ..@ band      : int 1
+  .. .. ..@ unit      : chr ""
+  .. .. ..@ names     : chr "layer"
+  ..@ legend  :Formal class '.RasterLegend' [package "raster"] with 5 slots
+  .. .. ..@ type      : chr(0) 
+  .. .. ..@ values    : logi(0) 
+  .. .. ..@ color     : logi(0) 
+  .. .. ..@ names     : logi(0) 
+  .. .. ..@ colortable: logi(0) 
+  ..@ title   : chr(0) 
+  ..@ extent  :Formal class 'Extent' [package "raster"] with 4 slots
+  .. .. ..@ xmin: num -180
+  .. .. ..@ xmax: num 180
+  .. .. ..@ ymin: num -89.9
+  .. .. ..@ ymax: num 89.9
+  ..@ rotated : logi FALSE
+  ..@ rotation:Formal class '.Rotation' [package "raster"] with 2 slots
+  .. .. ..@ geotrans: num(0) 
+  .. .. ..@ transfun:function ()  
+  ..@ ncols   : int 1440
+  ..@ nrows   : int 720
+  ..@ crs     :Formal class 'CRS' [package "sp"] with 1 slot
+  .. .. ..@ projargs: chr "+proj=longlat +datum=WGS84 +no_defs"
+  ..@ history : list()
+  ..@ z       : list()
+Formal class 'RasterLayer' [package "raster"] with 12 slots
+  ..@ file    :Formal class '.RasterFile' [package "raster"] with 13 slots
+  .. .. ..@ name        : chr ""
+  .. .. ..@ datanotation: chr "FLT4S"
+  .. .. ..@ byteorder   : chr "little"
+  .. .. ..@ nodatavalue : num -Inf
+  .. .. ..@ NAchanged   : logi FALSE
+  .. .. ..@ nbands      : int 1
+  .. .. ..@ bandorder   : chr "BIL"
+  .. .. ..@ offset      : int 0
+  .. .. ..@ toptobottom : logi TRUE
+  .. .. ..@ blockrows   : int 0
+  .. .. ..@ blockcols   : int 0
+  .. .. ..@ driver      : chr ""
+  .. .. ..@ open        : logi FALSE
+  ..@ data    :Formal class '.SingleLayerData' [package "raster"] with 13 slots
+  .. .. ..@ values    : num [1:1036800] NA NA NA NA NA NA NA NA NA NA ...
+  .. .. ..@ offset    : num 0
+  .. .. ..@ gain      : num 1
+  .. .. ..@ inmemory  : logi TRUE
+  .. .. ..@ fromdisk  : logi FALSE
+  .. .. ..@ isfactor  : logi FALSE
+  .. .. ..@ attributes: list()
+  .. .. ..@ haveminmax: logi TRUE
+  .. .. ..@ min       : num 0.02
+  .. .. ..@ max       : num 0.465
+  .. .. ..@ band      : int 1
+  .. .. ..@ unit      : chr ""
+  .. .. ..@ names     : chr "layer"
+  ..@ legend  :Formal class '.RasterLegend' [package "raster"] with 5 slots
+  .. .. ..@ type      : chr(0) 
+  .. .. ..@ values    : logi(0) 
+  .. .. ..@ color     : logi(0) 
+  .. .. ..@ names     : logi(0) 
+  .. .. ..@ colortable: logi(0) 
+  ..@ title   : chr(0) 
+  ..@ extent  :Formal class 'Extent' [package "raster"] with 4 slots
+  .. .. ..@ xmin: num -180
+  .. .. ..@ xmax: num 180
+  .. .. ..@ ymin: num -89.9
+  .. .. ..@ ymax: num 89.9
+  ..@ rotated : logi FALSE
+  ..@ rotation:Formal class '.Rotation' [package "raster"] with 2 slots
+  .. .. ..@ geotrans: num(0) 
+  .. .. ..@ transfun:function ()  
+  ..@ ncols   : int 1440
+  ..@ nrows   : int 720
+  ..@ crs     :Formal class 'CRS' [package "sp"] with 1 slot
+  .. .. ..@ projargs: chr "+proj=longlat +datum=WGS84 +no_defs"
+  ..@ history : list()
+  ..@ z       : list()
+[1] "t0"             "sm"             "sm_uncertainty" "dnflag"         "flag"          
+[6] "freqbandID"     "mode"           "sensor"        
+File ./data/1979/ESACCI-SOILMOISTURE-L3S-SSMV-COMBINED-19790101000000-fv04.4.nc (NC_FORMAT_NETCDF4_CLASSIC):
+
+     8 variables (excluding dimension variables):
+        double t0[lon,lat,time]   
+Error in R_nc4_inq_varndims: NetCDF: Not a valid ID
+[1] "t0"             "sm"             "sm_uncertainty" "dnflag"         "flag"          
+[6] "freqbandID"     "mode"           "sensor"        
