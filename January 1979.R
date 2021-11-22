@@ -8,11 +8,10 @@ library(sp)
 library(RNetCDF)
 library(ggplot2)
 
-# load 1979 files into the global environment
+# load all 1979 files into the global environment
 filenames= list.files('data/1979/',pattern = '*.nc',full.names = TRUE)
-ldf <- lapply(filenames, nc_open)
 
-# Load January 1979 file (to merge the daily files into montly files we used the cdo mergetime input.nc output.nc)
+# Load January 1979 file (to merge the daily files into monthly files we used the cdo mergetime input.nc output.nc code)
 Jan79 <- nc_open("data/1979/Jan79.nc")
 
 # Print Jan79 to view the data
@@ -48,7 +47,7 @@ fillvalue
 nc_close(Jan79)
 
 
-#Replace all those pesky fill values with the R-standard ‘NA’.
+#Replace all those fill values with the R-standard ‘NA’.
 jan.array[jan.array == fillvalue$value] <- NA
 
 # Slice the first day of January
@@ -73,7 +72,7 @@ writeRaster(jan01Ras, 'January_o1.tif', 'GTiff', overwrite=TRUE)
 
 
 
-# We can extract data for a specific location such a Kenya (0.0236, 37.9062)
+# We can try to extract data for a specific location say Kenya for example (0.0236, 37.9062)
 #To do this we will need to convert the entire 3d array of data to a raster brick(this may take some time)
 jan01_brick <- brick(jan.array, xmn=min(long), xmx=max(long), ymn=min(lat), ymx=max(lat),
                  crs=CRS("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs+ towgs84=0,0,0"))
@@ -82,11 +81,11 @@ dim(jan01_brick)
 
 #Extract timeseries of data in Kenya (the study location) from the raster brick using the ‘extract()’ function.
 
-Kenya_long <- -179.875
-Kenya_lat <-  89.875
+Kenya_long <- 0.0236
+Kenya_lat <-  37.962
 Kenya_series <- extract(jan01_brick, SpatialPoints(cbind(Kenya_long,Kenya_lat)), method='simple')
 
-# Put the data into a datafrane and plot a graph
+# Put the data into a dataframe and plot a graph (this did not plot a graph due o missing values)
 Kenya_df <- data.frame(day= seq(from=01, to=31, by=1), sm=t(Kenya_series))
 ggplot(data=Kenya_df, aes(x=day, y=sm, group=1)) +
   geom_line() + # make this a line plot
@@ -106,7 +105,7 @@ jan_diff_ras <- raster(t(jan_difference), xmn=min(long), xmx=max(long), ymn=min(
                        crs=CRS("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs+ towgs84=0,0,0"))
 
 # Orient the data correctly
-jan_diff_ras <- flip(jan_diff_ras, direction= 'y')
+jan_diff_ras <- flip(t(jan_diff_ras), direction= 'y')
 
 #plot the diff
 plot(jan_diff_ras)
