@@ -1,5 +1,4 @@
 #Set the working directory
-setwd("/home/victor/Documents/Victor/Tugie/R/ICRAF/SoilMoisture/")
 
 #Load required libraries
 library(ncdf4)
